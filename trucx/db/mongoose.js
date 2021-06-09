@@ -1,6 +1,5 @@
 var mongoose = require('mongoose');
-var uri ="mongodb+srv://adeepgarg4:a8196044188@cluster0.f5vu7.mongodb.net/learn?retryWrites=true&w=majority";
-var uri = "mongodb+srv://taskapp:<password>@cluster0.cesuh.mongodb.net/learn?retryWrites=true&w=majority";
+var uri = MONGO_KEY
 
 mongoose.connect(uri, {
     useNewUrlParser: true,
